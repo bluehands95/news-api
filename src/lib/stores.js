@@ -1,4 +1,4 @@
-import { writable } from 'svelte/store'
+import { writable } from "svelte/store";
 
-export const currentCountry = writable('us')
-export const currentCategory = writable('general')
+export const currentCountry = writable("mx");
+export const currentCategory = writable("general");
